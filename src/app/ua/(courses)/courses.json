@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Full Stack Development",
+    "subtitle": "HTML, CSS, JavaScript, React, Node.js, MongoDB",
+    "duration": "6 Months",
+    "price": "₹45,000",
+    "oldPrice": "₹65,000",
+    "careers": ["Web Developer", "Full Stack Engineer"],
+    "isPopular": true,
+    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png"
+  },
+  {
+    "title": "Python Data Science",
+    "subtitle": "Python, Pandas, NumPy, Machine Learning, AI",
+    "duration": "5 Months",
+    "price": "₹40,000",
+    "oldPrice": "₹60,000",
+    "careers": ["Data Analyst", "Data Scientist"],
+    "isPopular": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8EykgjQNV7llCQa3YCaCzM0tH8mTmtdnYA&s"
+  },
+  {
+    "title": "Java & Spring Boot",
+    "subtitle": "Core Java, Spring Boot, Microservices",
+    "duration": "5 Months",
+    "price": "₹38,000",
+    "oldPrice": "₹55,000",
+    "careers": ["Java Developer", "Backend Engineer"],
+    "isPopular": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6YhgeXmMMSOOWjbup4JseDI9clS3Lzk5Mg&s"
+  },
+  {
+    "title": "Cloud DevOps",
+    "subtitle": "AWS, Azure, GCP, Docker, Kubernetes, CI/CD",
+    "duration": "4 Months",
+    "price": "₹35,000",
+    "oldPrice": "₹55,000",
+    "careers": ["DevOps Engineer", "Cloud Engineer"],
+    "isPopular": false, 
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGmaKkGZ-Wo9TGZl-3GcYz4Yi6iV3EaYYMoA&s"
+  },
+
+  {
+    "title": "UI / UX Design",
+    "subtitle": "Figma, Wireframing, Prototyping, Design Systems",
+    "duration": "3 Months",
+    "price": "₹25,000",
+    "oldPrice": "₹40,000",
+    "careers": ["UI Designer", "UX Designer"],
+    "isPopular": false,
+    "image": "https://www.nextitcareer.com/wp-content/uploads/2025/04/5757453-scaled.jpg"
+  },
+  {
+    "title": "Mobile App Development",
+    "subtitle": "React Native, Flutter, Android, iOS",
+    "duration": "5 Months",
+    "price": "₹42,000",
+    "oldPrice": "₹60,000",
+    "careers": ["Mobile App Developer", "Flutter Developer"],
+    "isPopular": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQydn-BYboiFfwFzjGEG3AxeL8HHp5tuSLwIQ&s"
+  },
+  {
+    "title": "Cyber Security",
+    "subtitle": "Ethical Hacking, Network Security, Pen Testing",
+    "duration": "4 Months",
+    "price": "₹37,000",
+    "oldPrice": "₹55,000",
+    "careers": ["Security Analyst", "Ethical Hacker"],
+    "isPopular": false,
+    "image": "https://media.istockphoto.com/id/1435605327/photo/cybersecurity-concept-global-network-security-technology-business-people-protect-personal.jpg?s=612x612&w=0&k=20&c=9QvqAsfANdpsNcYdZ0WlMd5lKaTR9BvnTpFnrtGbV0s="
+  },
+  {
+    "title": "AI & Machine Learning",
+    "subtitle": "Python, Deep Learning, NLP, Computer Vision",
+    "duration": "6 Months",
+    "price": "₹48,000",
+    "oldPrice": "₹70,000",
+    "careers": ["ML Engineer", "AI Engineer"],
+    "isPopular": true,
+    "image": "https://www.artiba.org/Content/Images/ai-machine-learning.jpg"
+  }
+]
