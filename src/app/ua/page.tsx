@@ -1,12 +1,36 @@
 import { Metadata } from "next";
-import DashBoard from "./(dashBoard)/page";
+import { About } from "packages/screens/about";
+import { Contact } from "packages/screens/contact";
+import { Courses } from "packages/screens/courses";
+import { DashBoard } from "packages/screens/dashBoard";
 export const metadata: Metadata = {
-    title: 'Dashboard | Asky',
+    title: 'Murano Edutech',
     description:
-        'Dashboard page for Asky',
+        'Murano Edutech - Empowering Minds, Shaping Futures',
 };
 export default function Page() {
     return (
-        <DashBoard />
+        <>
+            <DashBoard />
+            <section
+                id="about"
+                className="scroll-mt-[120px]"
+            >
+                <About />
+            </section>
+            <section
+                id="course"
+                className="scroll-mt-[120px]"
+            >
+                <Courses />
+            </section>
+            <section
+                id="contact"
+                className="scroll-mt-[120px]"
+            >
+                <Contact />
+            </section>
+        </>
+
     );
 }
