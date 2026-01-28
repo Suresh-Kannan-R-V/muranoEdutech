@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import React from "react";
 
-export default function Contact() {
+export function Contact() {
     const [formData, setFormData] = React.useState({
         from_name: "",
         from_mobile: "",

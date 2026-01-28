@@ -1,8 +1,8 @@
 import { Metadata } from "next";
-import DashBoard from "./(dashBoard)/page";
-import AboutServices from "./(about)";
-import Courses from "./(courses)";
-import Contact from "./(contact)";
+import { About } from "packages/screens/about";
+import { Contact } from "packages/screens/contact";
+import { Courses } from "packages/screens/courses";
+import { DashBoard } from "packages/screens/dashBoard";
 export const metadata: Metadata = {
     title: 'Murano Edutech',
     description:
@@ -16,7 +16,7 @@ export default function Page() {
                 id="about"
                 className="scroll-mt-[120px]"
             >
-                <AboutServices />
+                <About />
             </section>
             <section
                 id="course"

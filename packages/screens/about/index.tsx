@@ -3,7 +3,7 @@ import { ServiceCard } from "packages/components/ServiceCard";
 import * as LucideIcons from "lucide-react";
 
 
-export default function AboutServices() {
+export function About() {
     const services = [
         {
             title: "Our Mission",

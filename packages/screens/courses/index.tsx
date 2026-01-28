@@ -1,7 +1,7 @@
 import { CourseCard } from 'packages/components/courseCard';
 import courses from './courses.json';
 
-export default function Courses() {
+export function Courses() {
     return (
         <div className="border-t-2 border-gray-300 py-14">
             <div className="mx-auto max-w-7xl px-6">

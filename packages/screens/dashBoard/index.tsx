@@ -24,7 +24,7 @@ const HERO_SLIDES = [
   },
 ];
 
-export default function DashBoard() {
+export function DashBoard() {
   const [current, setCurrent] = useState(0);
 
   // Auto slide change every 5 seconds

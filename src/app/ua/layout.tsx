@@ -1,5 +1,4 @@
-'use client';
-import NavBar from "packages/components/Navbar";
+import NavBarWrapper from "packages/components/Navbar/wapper";
 
 export default async function RootLayout({
     children,
@@ -19,20 +18,7 @@ export default async function RootLayout({
 
                     </div>
 
-                    <div className='flex gap-10'>
-                        <NavBar />
-
-                        <button
-                            onClick={() =>
-                                document.getElementById('contact')?.scrollIntoView({
-                                    behavior: 'smooth',
-                                })
-                            }
-                            className="rounded-full bg-orange-500 px-5 py-2 text-sm font-semibold hover:bg-orange-600 transition">
-                            Contact us
-                        </button>
-
-                    </div>
+                    <NavBarWrapper />
                 </div>
             </header>
             <div className="w-full">
