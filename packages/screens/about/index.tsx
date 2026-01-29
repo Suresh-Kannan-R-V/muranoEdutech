@@ -42,17 +42,30 @@ export function About() {
 
     return (
         <div className="mx-auto max-w-7xl px-6 py-20 space-y-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                <h2 className="text-4xl font-bold leading-none">
-                    About Murano Edutech
-                    <br /> <span className="text-xl text-gray-500"> Empowering Careers Through Industry-Focused Learning </span>
-                </h2>
-                <p className="text-gray-600">
-                    Murano Edutech is a premier Software Training & Career Development institute dedicated
-                    to bridging the gap between academic education and real-world IT industry demands.
-                    We focus on delivering practical, job-oriented training that transforms students into
-                    confident professionals.
-                </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 h-fit sm:h-96 ">
+                <div className="relative h-full w-full overflow-hidden rounded-xl">
+                    <img
+                        src="https://img.freepik.com/free-photo/cheerful-young-caucasian-businessman_171337-727.jpg?semt=ais_hybrid&w=740&q=80"
+                        alt="About Murano Edutech"
+                        className="h-full w-full object-cover"
+                    />
+                    <div className="bg-orange-500 text-white px-4 py-2 rounded-tr-xl rounded-bl-xl shadow-lg absolute bottom-0 left-0">
+                        <h3 className="font-semibold text-lg">Join Murano Edutech Today!</h3>
+                        <p className="text-sm">Transform your career with industry-focused training.</p>
+                    </div>
+                </div>
+                <div className="space-y-9">
+                    <h2 className="text-3xl sm:text-4xl font-bold leading-none">
+                        About Murano Edutech
+                        <br /> <span className="text-base sm:text-xl leading-none text-gray-500"> Empowering Careers Through Industry-Focused Learning </span>
+                    </h2>
+                    <p className="text-gray-600 text-sm sm:text-lg">
+                        Murano Edutech is a premier Software Training & Career Development institute dedicated
+                        to bridging the gap between academic education and real-world IT industry demands.
+                        We focus on delivering practical, job-oriented training that transforms students into
+                        confident professionals.
+                    </p>
+                </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 {services.map((item, i) => (
@@ -64,7 +77,7 @@ export function About() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     {data.map((item, i) => (
                         <div key={i}
-                            className="h-28 border-2 shadow-md rounded-xl px-5 py-4
+                            className="h-fit border-2 shadow-md rounded-xl px-5 py-4
                                 transition-transform duration-300 ease-out hover:scale-105">
                             <h3 className="font-semibold text-lg text-orange-500">{item.title}</h3>
                             <p className="text-gray-600">{item.desc}</p>

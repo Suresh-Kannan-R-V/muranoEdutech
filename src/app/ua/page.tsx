@@ -26,7 +26,7 @@ export default function Page() {
             </section>
             <section
                 id="contact"
-                className="scroll-mt-[120px]"
+                className="scroll-mt-[50px]"
             >
                 <Contact />
             </section>

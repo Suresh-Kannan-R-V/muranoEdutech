@@ -5,7 +5,7 @@ import NavBar from ".";
 
 export default function NavBarWrapper() {
     return (
-        <div className="flex gap-10">
+        <div className="md:flex gap-10 hidden">
             <NavBar />
 
             <button
@@ -14,7 +14,7 @@ export default function NavBarWrapper() {
                         behavior: 'smooth',
                     })
                 }
-                className="rounded-full bg-orange-500 px-5 py-2 text-sm font-semibold hover:bg-orange-600 transition"
+                className="hidden sm:block rounded-full bg-orange-500 px-3 py-2 text-xs md:text-sm font-semibold hover:bg-orange-600 transition whitespace-nowrap truncate"
             >
                 Contact us
             </button>

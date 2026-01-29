@@ -7,3 +7,9 @@
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
+
+.map {
+  margin-top: 14px;
+  border-radius: 16px;
+  overflow: hidden;
+}

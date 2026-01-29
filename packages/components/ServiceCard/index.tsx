@@ -43,10 +43,10 @@ export function ServiceCard({ title, desc, icon, image }: ServiceCardProps) {
                 </div>
 
                 <div
-                    className="flex-1 p-6 text-white
+                    className="flex-1 py-3 md:py-6 p-6 text-white h-fit
                         bg-gradient-to-br from-orange-500 via-orange-400 to-amber-300
                         transition-all duration-500 ease-in-out
-                        group-hover:opacity-0"
+                        group-hover:opacity-0 text-sm sm:text-base"
                 >
                     {desc}
                 </div>

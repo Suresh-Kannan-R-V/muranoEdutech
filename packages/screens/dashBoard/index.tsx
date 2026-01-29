@@ -79,7 +79,7 @@ export function DashBoard() {
               }
               className="mt-8 w-fit rounded-full bg-orange-500 px-7 py-3 font-semibold hover:bg-orange-600 transition"
             >
-              Learn more
+              View Courses
             </button>
 
           </div>

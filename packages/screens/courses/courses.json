@@ -7,7 +7,8 @@
     "oldPrice": "₹65,000",
     "careers": ["Web Developer", "Full Stack Engineer"],
     "isPopular": true,
-    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png"
+    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png",
+    "videoUrl": "https://youtu.be/LzMnsfqjzkA?si=Qc5EpxE3hqqyYZ-V"
   },
   {
     "title": "Python Data Science",
@@ -36,7 +37,7 @@
     "price": "₹35,000",
     "oldPrice": "₹55,000",
     "careers": ["DevOps Engineer", "Cloud Engineer"],
-    "isPopular": false, 
+    "isPopular": false,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGmaKkGZ-Wo9TGZl-3GcYz4Yi6iV3EaYYMoA&s"
   },
 
